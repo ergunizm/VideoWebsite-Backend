@@ -1,0 +1,14 @@
+com\ergun\videos\controllers\UsersController.class
+com\ergun\videos\entities\Video.class
+com\ergun\videos\core\utilities\exceptions\UserException.class
+com\ergun\videos\controllers\VideosController.class
+com\ergun\videos\business\UserServiceImpl.class
+com\ergun\videos\business\VideoService.class
+com\ergun\videos\business\UserService.class
+com\ergun\videos\dataAccess\UserRepository.class
+com\ergun\videos\business\EmailServiceImpl.class
+com\ergun\videos\business\VideoServiceImpl.class
+com\ergun\videos\business\EmailService.class
+com\ergun\videos\dataAccess\VideoRepository.class
+com\ergun\videos\entities\User.class
+com\ergun\videos\VideosApplication.class

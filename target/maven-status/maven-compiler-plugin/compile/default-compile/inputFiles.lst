@@ -1,0 +1,14 @@
+C:\projects\backend\videos\src\main\java\com\ergun\videos\controllers\UsersController.java
+C:\projects\backend\videos\src\main\java\com\ergun\videos\business\UserServiceImpl.java
+C:\projects\backend\videos\src\main\java\com\ergun\videos\controllers\VideosController.java
+C:\projects\backend\videos\src\main\java\com\ergun\videos\business\UserService.java
+C:\projects\backend\videos\src\main\java\com\ergun\videos\business\VideoService.java
+C:\projects\backend\videos\src\main\java\com\ergun\videos\core\utilities\exceptions\UserException.java
+C:\projects\backend\videos\src\main\java\com\ergun\videos\dataAccess\UserRepository.java
+C:\projects\backend\videos\src\main\java\com\ergun\videos\business\EmailService.java
+C:\projects\backend\videos\src\main\java\com\ergun\videos\VideosApplication.java
+C:\projects\backend\videos\src\main\java\com\ergun\videos\business\EmailServiceImpl.java
+C:\projects\backend\videos\src\main\java\com\ergun\videos\dataAccess\VideoRepository.java
+C:\projects\backend\videos\src\main\java\com\ergun\videos\entities\User.java
+C:\projects\backend\videos\src\main\java\com\ergun\videos\entities\Video.java
+C:\projects\backend\videos\src\main\java\com\ergun\videos\business\VideoServiceImpl.java
