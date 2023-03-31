@@ -35,6 +35,8 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public void add(User user) {
+        User user1 = userRepository.findByUsername(user.getUsername());
+        User user2 = userRepository.findByEmail(user.getEmail());
         if(user.getUsername() == null){
             throw new UserException("Username must have at least 8 characters!");
         }else if(user.getEmail() == null){
@@ -51,9 +53,9 @@ public class UserServiceImpl implements UserService{
             throw new UserException("Passwords must have at least 8 characters!");
         }
 
-        if(userRepository.findByUsername(user.getUsername()) != null){
+        if(user1 != null){
             throw new UserException("username exists");
-        }else if(userRepository.findByEmail(user.getEmail()) != null){
+        }else if(user2 != null){
             throw new UserException("email exists");
         }else{
             userRepository.save(user);
